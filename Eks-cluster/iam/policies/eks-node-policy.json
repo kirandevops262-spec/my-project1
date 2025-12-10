@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "autoscaling:*",
+          "ec2:Describe*",
+          "ec2:AttachVolume",
+          "ec2:DetachVolume"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  
